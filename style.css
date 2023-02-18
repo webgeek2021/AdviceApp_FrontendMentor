@@ -49,7 +49,7 @@ main .card .pattern__divider{
     background-position: center;
     height: 30px;
 }
-main button{
+main #getAdviceBtn{
     cursor: pointer;
     padding: 20.89px;
     border-radius: 50%;
@@ -58,11 +58,14 @@ main button{
     background-color: var(--neonGreen);
     position: relative;
     top: -33px;
-    left: -2px;
+    left: 44%;
     box-shadow: 0 0 10px -10px var(--neonGreen);
     transition: box-shadow 1s ease-in-out;
+    width: 65px;
+    height: 65px;
+
 }
-main button:hover {
+main #getAdviceBtn:hover {
     box-shadow: 0 0 15px 5px var(--neonGreen);
     /* animation: btn-glow 1s ease-in-out; */
 }
@@ -138,6 +141,8 @@ main button:hover {
     }
     main .card .advice__para{
         font-size: 26px;
-        
+    }
+    main #getAdviceBtn{
+        left: 40%;
     }
 }

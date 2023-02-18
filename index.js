@@ -31,9 +31,10 @@ const displayAdvice = (data) => {
         <p id="advice__para">${advice}</p>
         <div class="pattern__divider"></div>
     </section>
-    <button id="getAdviceBtn" onclick="fetchData()">
-        <img src="./images/icon-dice.svg" />
-    </button>`
+    <div id="getAdviceBtn" onclick="fetchData()">
+    <img src="./images/icon-dice.svg" />
+    </div>
+    `
 
     card_container.innerHTML = card
 }
