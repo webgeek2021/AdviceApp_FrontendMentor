@@ -32,7 +32,7 @@ const displayAdvice = (data) => {
         <div class="pattern__divider"></div>
     </section>
     <div id="getAdviceBtn" onclick="fetchData()">
-    <img src="./images/icon-dice.svg" />
+    <img src="./images/icon-dice.svg" alt="click this button to get advice"/>
     </div>
     `
 
